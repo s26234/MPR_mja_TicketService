@@ -1,7 +1,6 @@
 package com.mja;
 
 public class Status {
-
     private User user;
     private Ticket ticket;
 

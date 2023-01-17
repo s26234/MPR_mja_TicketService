@@ -6,15 +6,14 @@ import java.util.List;
 
 @Component
 public class StatusStorage {
-
     private List<Status> statusList = new ArrayList<>();
 
-    public LIst<Status> getStatusList() {
-        return StatusList;
+    public List<Status> getStatusList() {
+        return statusList;
     }
-
     public StatusStorage() {
-        statusList.add(new Status(new User("Adam"), new Ticket(1, "What will be the weather??", "It will be ok"));
+        statusList.add(new Status(new User("Adam"), new Ticket("Where we are?")));
+        statusList.add(new Status(new User("Rafal"),new Ticket("Can I buy 2 tickets?")));
     }
 
 }
